@@ -50,44 +50,35 @@ h1{
     max-width: 800px;
 }
 
-/* @media only screen and (max-width:750px) {
+@media only screen and (max-width:768px) {
     .digit{
-        font-size: 70px;
+        font-size: 80px;
     }
     .text{
-        font-size: 22px;
+        font-size: 28px;
+    }
+    .container{
+        max-width: 600px;
+    }
+    .card{
+     max-width: 600px;
     }
     
 }
-@media only screen and (max-width:570px) {
+@media only screen and (max-width:480px) {
     .digit{
-        font-size: 90px;
+        font-size: 60px;
     }
     .text{
-        font-size: 30px;
-    }
+        font-size: 20px;
+    
     
 }
-@media only screen and (max-width:450px) {
-    .digit{
-        font-size: 70px;
-    }
-    .text{
-        font-size: 25px;
-    }
-    
+.container{
+    max-width: 100%;
 }
-@media only screen and (max-width:385px) {
-    .digit{
-        font-size: 50px;
-    }
-    .text{
-        font-size: 15px;
-    }
-    .btn{
-        width: auto;
-        height: auto;
-        font-size: 10px;
-    }
-    
-} */
+.card{
+    max-width: 100%;
+}
+}
+
