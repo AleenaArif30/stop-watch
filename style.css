@@ -1,36 +1,33 @@
-* {
+
+*{
     box-sizing: border-box;
 }
-
-body {
+body{
     background-image: url('https://img.freepik.com/premium-photo/stopwatch-pink-background_420001-5488.jpg');
     background-position: fixed;
     background-size: cover;
-
-
+    
+    
 }
 
-.digit {
+.digit{
     font-size: 100px;
     color: white;
 }
-
-.text {
+.text{
     font-size: 32px;
     margin-top: 100px;
     color: white;
 }
-
-.btn {
-    /* width: 120px;
-    height: 80px; */
+.btn{
+    width: 120px;
+    height: 80px;
     color: black;
     cursor: move;
     margin: 10px;
     font-size: 20px;
 }
-
-h1 {
+h1{
     font-size: 50px;
     text-decoration: underline black;
     font-style: italic;
@@ -38,8 +35,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
-
-.card {
+.card{
     border: 1px solid red;
     background-color: black;
     /* max-height: 500px; */
@@ -48,59 +44,50 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
-
-.container {
+.container{
     max-width: 800px;
 }
 
 @media only screen and (max-width:750px) {
-    .digit {
+    .digit{
         font-size: 70px;
     }
-
-    .text {
+    .text{
         font-size: 22px;
     }
-
+    
 }
-
 @media only screen and (max-width:570px) {
-    .digit {
+    .digit{
         font-size: 50px;
     }
-
-    .text {
+    .text{
         font-size: 15px;
     }
-
+    
 }
-
 @media only screen and (max-width:450px) {
-    .digit {
-        font-size: 40px;
+    .digit{
+        font-size: 50px;
     }
-
-    .text {
-        font-size: 12px;
+    .text{
+        font-size: 16px;
     }
-
+    
 }
-
 @media only screen and (max-width:385px) {
-    .digit {
+    .digit{
         font-size: 20px;
     }
-
-    .text {
+    .text{
         font-size: 7px;
     }
-
-    .btn {
+    .btn{
         width: auto;
         height: auto;
         font-size: 10px;
     }
-
+    
 }
